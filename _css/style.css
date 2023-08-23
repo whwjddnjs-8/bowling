@@ -1,0 +1,511 @@
+@charset "UTF-8";
+/* #### Home #### */
+.main-slider {
+  width: 100%;
+}
+
+.main-slider .swiper-slide {
+  background-color: #EEF7FF;
+  text-align: center;
+}
+
+.main-slider .swiper-slide img {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.home-category {
+  margin-top: 32px;
+}
+
+.category__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.category__inner .category_item {
+  display: inline-block;
+  width: 174px;
+  height: 174px;
+  border-radius: 12px;
+  background-color: transparent;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  transition: 0.35s;
+}
+
+.category__inner .category_item:hover {
+  background-color: #FAFAFA;
+  box-shadow: 0 3px 6px rgb(0, 0, 0, 0.16);
+}
+
+.category__inner .category_item .thum {
+  display: inline-block;
+}
+
+.category__inner .category_item:nth-child(1) .thum {
+  width: 81px;
+  height: 76px;
+  background: url(/_img/category01.png) no-repeat center center /contain;
+}
+
+.category__inner .category_item:nth-child(2) .thum {
+  width: 76px;
+  height: 76px;
+  background: url(/_img/category02.png) no-repeat center center /contain;
+}
+
+.category__inner .category_item:nth-child(3) .thum {
+  width: 76px;
+  height: 76px;
+  background: url(/_img/category03.png) no-repeat center center /contain;
+}
+
+.category__inner .category_item:nth-child(4) .thum {
+  width: 85px;
+  height: 85px;
+  background: url(/_img/category04.png) no-repeat center center /contain;
+}
+
+.category__inner .category_item:nth-child(5) .thum {
+  width: 80px;
+  height: 80px;
+  background: url(/_img/category05.png) no-repeat center center /contain;
+}
+
+.category__inner .category_item:nth-child(6) .thum {
+  width: 69px;
+  height: 69px;
+  background: url(/_img/category06.png) no-repeat center center /contain;
+}
+
+.category__inner .category_item span {
+  text-align: center;
+}
+
+h3.home_title {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+h3.home_title>b {
+  font-weight: 600;
+}
+
+.more_item {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.more_item .btn_more {
+  text-decoration: underline;
+}
+
+/* 인기상품 */
+.home_best-item {
+  margin-top: 80px;
+}
+
+.best-item__list {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.best-item {
+  flex : 1;
+}
+
+.best-item .product_thumbnail {
+  text-align: center;
+  border-radius: 20px;
+  display: inline-block;
+  width: 100%;
+  height: 265px;
+  transition: 0.35s;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.best-item:hover .product_thumbnail {
+  background-color: #FAFAFA;
+}
+
+.product_thumbnail span.best {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 62px;
+  height: 32px;
+  border-radius: 20px 0 20px 0;
+  background-color: var(--color-blue);
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 32px;
+}
+
+.product_thumbnail span.best::after {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  background: url(/_img/common/icon_dots.svg) no-repeat center center / contain;
+}
+
+.product_thumbnail button.btn_like {
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url(/_img/common/icon_like.svg) no-repeat center center / 24px 20px;
+}
+
+.product_thumbnail button.btn_like.active {
+  background: url(/_img/common/icon_like_active.svg) no-repeat center center / 24px 20px;
+}
+
+.product_thumbnail .thum {
+  width: 200px;
+  height: auto;
+}
+
+.product_thumbnail .thum img {
+  width: 100%;
+}
+.best-item .info {
+  margin-top: 18px;
+}
+
+.best-item .info h3.tit {
+  font-weight: 500;
+  text-align: center;
+}
+
+.best-item .info h3.tit.new {
+  display: inline-block;
+  padding-left: 50px;
+  position: relative;
+}
+
+.best-item .info h3.tit.new:before {
+  content: 'NEW';
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  background-color: var(--color-orange);
+  display: inline-block;
+  width: 41px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 4px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.best-item .info .price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13px;
+  gap: 8px;
+}
+
+.best-item .info .price span {
+  font-size: 14px;
+}
+
+.best-item .info .price span b {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.best-item .info .price s {
+  font-size: 14px;
+  color: #9E9E9E;
+}
+
+/* 커스텀 볼링용품 */
+.home-custom {
+  margin-top: 100px;
+}
+
+.custom__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 34px;
+}
+
+.custom__list .custom__item {
+  width: calc(50% - 30px);
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  transition: 0.35s;
+  min-height: 280px;
+}
+
+.custom__list .custom__item:hover {
+  box-shadow: 0 2px 6px rgb(0, 0, 0, 0.16);
+}
+
+.custom__list .custom__item:nth-child(1) {
+  background-color: #FFF6F2;
+}
+
+.custom__list .custom__item:nth-child(2) {
+  background-color: #F5F5FF;
+}
+
+.custom__list .custom__item:nth-child(3) {
+  background-color: #EAF9FA;
+  position: relative;
+}
+
+.custom__list .custom__item:nth-child(4) {
+  background-color: #EEF7FF;
+  position: relative;
+}
+
+.custom__list .custom__item .text {
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.custom__list .custom__item .text span {
+  color: #5C6473;
+}
+
+.custom__list .custom__item .text h3 {
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+.custom__list .custom__item .text h4 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.custom__list .custom__item .text h4 b {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.custom__list .custom__item .text h3 b {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.custom__list .custom__item:nth-child(1) .img {
+  transform: translateY(23px);
+}
+
+.custom__list .custom__item:nth-child(2) .img {
+  transform: translateY(23px);
+}
+
+.custom__list .custom__item:nth-child(3) .img {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+}
+
+.custom__list .custom__item:nth-child(4) .img {
+  position: absolute;
+  right: 10px;
+  bottom: -20px;
+}
+
+.custom__list .custom__item:nth-child(4) .text span:nth-of-type(2) {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* 고객리뷰 */
+.home-review {
+  margin-top: 170px;
+}
+
+.home-review .home_title {
+  text-align: center;
+}
+
+.review__list {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.review__item .thum {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.review__item .score {
+  margin-top: 16px; 
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.review__item .score>span {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(/_img/common/icon_star.svg) no-repeat center center /contain;
+}
+
+.review__item .score>span.fill {
+  background: url(/_img/common/icon_star_fill.svg) no-repeat center center /contain;
+}
+
+.review__item p.cnts {
+  margin-top: 15px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #EEEEEE;
+  color: #616161;
+  font-size: 14px;
+}
+
+.review__item .reg_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.review__item .reg_info span {
+  color: #9E9E9E;
+  font-size: 14px;
+}
+
+/*  볼링티 정보 */
+.home-info {
+  margin-top: 120px;
+  background-color: #F5F5F5;
+  width: 100%;
+  padding-top: 72px;
+  padding-bottom: 80px;
+}
+
+.home-info__inner {
+  max-width: 1194px;
+  margin: 0 auto;
+}
+
+.home-info__inner .home_title {
+  text-align: center;
+}
+
+.home-info__inner .home_title>b {
+  position: relative;
+  padding-left: 52px;
+}
+
+.home-info__inner .home_title>b:before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  background: url(/_img/common/icon_bowling.svg) no-repeat center center /contain;
+}
+
+.bowling-info__list {
+  margin-top: 32px;
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.bowling-info__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+.bowling-info__item .thum {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.bowling-info__item span {
+  padding-left: 45px;
+  position: relative;
+}
+
+.bowling-info__item span:before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 10px;
+  top: 0%;
+}
+
+.bowling-info__item:nth-child(1) span:before {
+  left: 20px;
+  background: url(/_img/common/icon_bowling01.svg) no-repeat center center / 8px 8px;
+}
+
+.bowling-info__item:nth-child(2) span:before {
+  background: url(/_img/common/icon_bowling02.svg) no-repeat center center /contain;
+}
+
+.bowling-info__item:nth-child(3) span:before {
+  top: 3px;
+  background: url(/_img/common/icon_bowling03.svg) no-repeat center center /contain;
+}
+
+/* 인스타 후기 */
+.home-sns {
+  margin-top: 120px;
+  margin-bottom: 220px;
+}
+
+.home-sns .title {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 11px;
+}
+
+.home-sns .title span {
+  font-weight: 500;
+}
+
+.home-sns .sns__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 48px;
+}
