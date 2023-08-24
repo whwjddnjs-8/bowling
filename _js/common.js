@@ -2,7 +2,15 @@ $(function () {
 	/* Nice Select */
 	$(".custom-select").niceSelect();
 
-	$("header").load("/_inc/header.html");
+	$("header").load("/_inc/header.html", function () {
+		$('.header__fast-menu .btn_search').click(function () {
+			$(".header__total-search").show();
+		})
+
+		$(".btn_close-search").click(function () {
+			$(".header__total-search").hide();
+		});
+	});
 	$("footer").load("/_inc/footer.html");
 })
 

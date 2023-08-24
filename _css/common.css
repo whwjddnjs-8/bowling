@@ -59,25 +59,6 @@
   background: url(/_img/common/icon_close.svg) no-repeat center center / 12px;
 }
 
-/* Form */
-input[type=text],
-input[type=password] {
-  border: 1px solid #E2E2E2;
-  border-radius: 4px;
-  background-color: #fff;
-  display: inline-block;
-  width: 480px;
-  height: 46px;
-  padding: 0 16px;
-  font-size: 16px;
-}
-
-input[type=text]::placeholder {
-  font-size: 16px;
-  font-weight: 400;
-  color: #999999;
-}
-
 /* Select */
 select {
   display: none;
