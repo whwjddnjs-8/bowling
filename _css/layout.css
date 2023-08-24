@@ -98,6 +98,7 @@ header {
   max-width: 1194px;
   margin: 0 auto;
   height: 103px;
+  padding: 0 20px;
   padding-top: 9px;
   padding-bottom: 19px;
   display: flex;
@@ -110,6 +111,10 @@ header {
   height: 27px;
 }
 
+.header__logo .btn_menu {
+  display: none;
+}
+
 .header__logo img {
   width: 100%;
   height: 100%;
@@ -117,6 +122,7 @@ header {
 }
 
 .header__gnb {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -376,6 +382,157 @@ header {
   color: #9E9E9E;
   font-size: 14px;
 }
+
+/* @media (min-width: 768px) and (max-width: 1300px) {
+  .header__gnb {
+    flex-direction: column;
+  }
+} */
+
+@media screen and (max-width:900px) {
+  header {
+    height: 75px;
+  }
+
+  .header__advert {
+    height: 30px;
+  }
+
+  .header__advert>a {
+    font-size: 12px;
+    padding-right: 15px;
+  }
+
+  .header__advert>a:after {
+    width: 10px;
+    height: 10px;
+  }
+
+  .header-mem_menu {
+    display: none;
+  }
+
+  .header__inner {
+    padding: 9px 0;
+    height: 45px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .header__logo {
+    width: 100%;
+    padding: 0 20px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header__logo .btn_menu {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url(/_img/common/icon_menu.svg) no-repeat center center / contain;
+  }
+
+  .header__gnb {
+    display: none;
+  }
+
+  main {
+    padding-top: 75px;
+  }
+
+  .header__total-search {
+    top: 75px;
+  }
+
+  .total-search__wrap {
+    height: 50%;
+  }
+
+  .total-search__inner {
+    width: 90%;
+  }
+
+  .btn_close-search {
+    top: 30px;
+    width: 19px;
+    height: 19px;
+  }
+
+  .form_total-search {
+    width: 100%;
+  }
+
+  .search_input {
+    width: 100%;
+    height: 40px;
+    padding: 0 15px;
+  }
+
+  .search_input input {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .search_input .btn_search {
+    width: 20px;
+    height: 20px;
+  }
+
+  .search-word {
+    margin-top: 20px;
+  }
+
+  .search-word .popular-word {
+    flex: 1.4;
+    width: 100%;
+    min-height: 250px;
+    padding: 0 10px;
+  }
+
+  .search-word .recent-word {
+    flex: 1;
+    border-left: 1px solid #EEEEEE;
+    padding: 0 10px;
+    min-height: 250px;
+  }
+
+  .search-word .title h5 {
+    font-size: 14px;
+  }
+
+  .btn_delete-all {
+    font-size: 11px;
+    color: #616161;
+  }
+
+  .popular-word .contents {
+    margin-top: 15px;
+    gap: 12px;
+  }
+
+  .popular-word .contents ul li {
+    color: #616161;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    line-height: 25px;
+    height: 25px;
+  }
+
+  .recent-word .contents {
+    margin-top: 15px;
+  }
+
+  .recent-word .contents .nodata {
+    font-size: 11px;
+  }
+}
 /* Footer */
 footer {
   width: 100%;
@@ -395,6 +552,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  padding: 0 20px;
   padding-top: 39px;
   padding-bottom: 81px;
 }
@@ -485,4 +643,57 @@ footer {
   border: 1px solid #E0E0E0;
   color: #222222;
   background-color: #E0E0E0;
+}
+
+@media screen and (max-width:768px) {
+  #wrap {
+    padding-bottom: 230px;
+  }
+
+  footer {
+    bottom: -230px;
+    height: 230px;
+  }
+
+  .footer__inner {
+    padding: 20px 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .footer__inner .footer__logo span.tel {
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 6px;
+  }
+
+  .footer__inner .footer__logo ul.work {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .footer__inner .footer__logo ul.work li {
+    margin-bottom: 4px;
+    font-size: 11px;
+  }
+
+  .footer__inner .footer__logo p.copyright {
+    font-size: 12px;
+    margin-top: 3px;
+  }
+
+  .footer__inner .footer__cmpny-info {
+    margin-top: 15px;
+  }
+
+  .footer__inner .footer__cmpny-info ul li{
+    margin-bottom: 4px;
+    font-size: 12px;
+  }
+
+  .footer__inner .footer__link-info {
+    display: none;
+  }
 }
