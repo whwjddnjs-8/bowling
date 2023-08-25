@@ -176,11 +176,11 @@ header {
   left: 50%;
   transform: translateX(-50%);
   top: -35px;
-  background: url(/_img/common/custom_blue.svg) no-repeat center center /contain;
+  background: url(../_img/common/custom_blue.svg) no-repeat center center /contain;
 }
 
 .header__gnb ul.gnb li.custom_orange:after {
-  background: url(/_img/common/custom_orange.svg) no-repeat center center /contain;
+  background: url(../_img/common/custom_orange.svg) no-repeat center center /contain;
 }
 
 .header__fast-menu {
@@ -209,19 +209,19 @@ header {
 }
 
 .header__fast-menu .btn_search em.icon {
-  background: url(/_img/common/icon_search.svg) no-repeat center center / 24px 24px;
+  background: url(../_img/common/icon_search.svg) no-repeat center center / 24px 24px;
 }
 
 .header__fast-menu .btn_login em.icon {
-  background: url(/_img/common/icon_person.svg) no-repeat center center / 18px 20px;
+  background: url(../_img/common/icon_person.svg) no-repeat center center / 18px 20px;
 }
 
 .header__fast-menu .btn_order em.icon {
-  background: url(/_img/common/icon_order.svg) no-repeat center center / 28px 18px;
+  background: url(../_img/common/icon_order.svg) no-repeat center center / 28px 18px;
 }
 
 .header__fast-menu .btn_cart em.icon {
-  background: url(/_img/common/icon_cart.svg) no-repeat center center / 23px 24px;
+  background: url(../_img/common/icon_cart.svg) no-repeat center center / 23px 24px;
   position: relative;
 }
 
@@ -270,7 +270,7 @@ header {
   display: inline-block;
   width: 24px;
   height: 24px;
-  background: url(/_img/common/icon_close.svg) no-repeat center center / contain;
+  background: url(../_img/common/icon_close.svg) no-repeat center center / contain;
 }
 
 .total-search {
@@ -310,7 +310,7 @@ header {
   display: inline-block;
   width: 24px;
   height: 24px;
-  background: url(/_img/common/icon_search_blue.svg) no-repeat center center / contain;
+  background: url(../_img/common/icon_search_blue.svg) no-repeat center center / contain;
 }
 
 .search-word {
@@ -431,7 +431,7 @@ header {
     display: block;
     width: 25px;
     height: 25px;
-    background: url(/_img/common/icon_menu.svg) no-repeat center center / contain;
+    background: url(../_img/common/icon_menu.svg) no-repeat center center / contain;
   }
 
   .header__gnb {

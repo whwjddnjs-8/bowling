@@ -66,37 +66,37 @@
 .category__inner .category_item:nth-child(1) .thum {
   width: 81px;
   height: 76px;
-  background: url(/_img/category01.png) no-repeat center center /contain;
+  background: url(../_img/category01.png) no-repeat center center /contain;
 }
 
 .category__inner .category_item:nth-child(2) .thum {
   width: 76px;
   height: 76px;
-  background: url(/_img/category02.png) no-repeat center center /contain;
+  background: url(../_img/category02.png) no-repeat center center /contain;
 }
 
 .category__inner .category_item:nth-child(3) .thum {
   width: 76px;
   height: 76px;
-  background: url(/_img/category03.png) no-repeat center center /contain;
+  background: url(../_img/category03.png) no-repeat center center /contain;
 }
 
 .category__inner .category_item:nth-child(4) .thum {
   width: 85px;
   height: 85px;
-  background: url(/_img/category04.png) no-repeat center center /contain;
+  background: url(../_img/category04.png) no-repeat center center /contain;
 }
 
 .category__inner .category_item:nth-child(5) .thum {
   width: 80px;
   height: 80px;
-  background: url(/_img/category05.png) no-repeat center center /contain;
+  background: url(../_img/category05.png) no-repeat center center /contain;
 }
 
 .category__inner .category_item:nth-child(6) .thum {
   width: 69px;
   height: 69px;
-  background: url(/_img/category06.png) no-repeat center center /contain;
+  background: url(../_img/category06.png) no-repeat center center /contain;
 }
 
 .category__inner .category_item span {
@@ -212,7 +212,7 @@ h3.home_title>b {
   position: absolute;
   right: 4px;
   top: 4px;
-  background: url(/_img/common/icon_dots.svg) no-repeat center center / contain;
+  background: url(../_img/common/icon_dots.svg) no-repeat center center / contain;
 }
 
 .product_thumbnail button.btn_like {
@@ -222,11 +222,11 @@ h3.home_title>b {
   display: inline-block;
   width: 32px;
   height: 32px;
-  background: url(/_img/common/icon_like.svg) no-repeat center center / 24px 20px;
+  background: url(../_img/common/icon_like.svg) no-repeat center center / 24px 20px;
 }
 
 .product_thumbnail button.btn_like.active {
-  background: url(/_img/common/icon_like_active.svg) no-repeat center center / 24px 20px;
+  background: url(../_img/common/icon_like_active.svg) no-repeat center center / 24px 20px;
 }
 
 .product_thumbnail .thum {
@@ -326,11 +326,11 @@ h3.home_title>b {
     right: 10px;
     width: 25px;
     height: 25px;
-    background: url(/_img/common/icon_like.svg) no-repeat center center / 18px 15px;
+    background: url(../_img/common/icon_like.svg) no-repeat center center / 18px 15px;
   }
 
   .product_thumbnail button.btn_like.active {
-    background: url(/_img/common/icon_like_active.svg) no-repeat center center / 18px 15px;
+    background: url(../_img/common/icon_like_active.svg) no-repeat center center / 18px 15px;
   }
   
   .product_thumbnail .thum {
@@ -569,11 +569,11 @@ width: calc(50% - 15px);
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: url(/_img/common/icon_star.svg) no-repeat center center /contain;
+  background: url(../_img/common/icon_star.svg) no-repeat center center /contain;
 }
 
 .review__item .score>span.fill {
-  background: url(/_img/common/icon_star_fill.svg) no-repeat center center /contain;
+  background: url(../_img/common/icon_star_fill.svg) no-repeat center center /contain;
 }
 
 .review__item p.cnts {
@@ -681,7 +681,7 @@ width: calc(50% - 15px);
   top: 50%;
   transform: translateY(-50%);
   left: 0;
-  background: url(/_img/common/icon_bowling.svg) no-repeat center center /contain;
+  background: url(../_img/common/icon_bowling.svg) no-repeat center center /contain;
 }
 
 .bowling-info__list {
@@ -722,16 +722,16 @@ width: calc(50% - 15px);
 
 .bowling-info__item:nth-child(1) span:before {
   left: 20px;
-  background: url(/_img/common/icon_bowling01.svg) no-repeat center center / 8px 8px;
+  background: url(../_img/common/icon_bowling01.svg) no-repeat center center / 8px 8px;
 }
 
 .bowling-info__item:nth-child(2) span:before {
-  background: url(/_img/common/icon_bowling02.svg) no-repeat center center /contain;
+  background: url(../_img/common/icon_bowling02.svg) no-repeat center center /contain;
 }
 
 .bowling-info__item:nth-child(3) span:before {
   top: 3px;
-  background: url(/_img/common/icon_bowling03.svg) no-repeat center center /contain;
+  background: url(../_img/common/icon_bowling03.svg) no-repeat center center /contain;
 }
 
 @media screen and (max-width:768px) {
@@ -773,7 +773,7 @@ width: calc(50% - 15px);
 
   .bowling-info__item:nth-child(1) span:before {
     left: 10px;
-    background: url(/_img/common/icon_bowling01.svg) no-repeat center center / 5px 5px;
+    background: url(../_img/common/icon_bowling01.svg) no-repeat center center / 5px 5px;
   }
 
   .bowling-info__item:nth-child(2) span {
@@ -782,7 +782,7 @@ width: calc(50% - 15px);
   
   .bowling-info__item:nth-child(2) span:before {
     left: 17px;
-    background: url(/_img/common/icon_bowling02.svg) no-repeat center center / 12px 12px;
+    background: url(../_img/common/icon_bowling02.svg) no-repeat center center / 12px 12px;
   }
 
   .bowling-info__item:nth-child(3) span {
@@ -792,7 +792,7 @@ width: calc(50% - 15px);
   .bowling-info__item:nth-child(3) span:before {
     left: 17px;
     top: 3px;
-    background: url(/_img/common/icon_bowling03.svg) no-repeat center center / 12px 12px;
+    background: url(../_img/common/icon_bowling03.svg) no-repeat center center / 12px 12px;
   }
 }
 /* 인스타 후기 */
